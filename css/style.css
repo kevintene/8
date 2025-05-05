@@ -1,0 +1,336 @@
+body {
+    background-image: url("../backgrounds/sfondo.webp");
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit; /* opzionale: mantiene il colore del testo corrente */
+}
+
+.start {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: 100;
+    margin-left: 300px;
+    margin-top: 70px;
+    font-size: 80px;
+}
+
+
+
+section {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 12px;
+    height: 625px;
+    width: 1250px;
+    margin-left: 300px;
+    margin-right: 50x;
+    margin-top: 60px;
+}
+
+.font {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: aliceblue;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+/*-- ICONS ----------------------------------------------------------- */
+
+
+
+
+
+
+.icon1 {
+    grid-column: 1 / span 2;
+    background-color: #009DAE;
+    width: 410px;
+    height: 200px;
+    background-image: url("../icons/mail.png");
+    background-size: 30%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.8s;
+}
+
+.icon1:hover{
+    transform: scale(1.010);
+}
+
+.icon2 {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    background-color: #00a100;
+    width: 410px;
+    height: 200px;
+    background-image: url("../icons/whatsapp.png");
+    background-size: 30%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.8s;
+}
+
+.icon2:hover{
+    transform: scale(1.010);
+}
+
+.icon3 {
+    grid-row: 3;
+    background-color: #02BDC4;
+    height: 200px;
+    width: 200px;
+    background-image: url("../icons/Canva-Logo.png");
+    background-size: 50%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.8s;
+}
+
+.icon3:hover{
+    transform: scale(1.010);
+}
+
+.icon4 {
+    grid-row: 3;
+    background-color: #A200A9;
+    height: 200px;
+    width: 200px;
+    background-image: url("../icons/Maps_White-6.png");
+    background-size: 60%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.8s;
+}
+
+.icon4:hover{
+    transform: scale(1.010);
+}
+
+.icon5 {
+    grid-row: 1;
+    grid-column: 3;
+    background-color: #2e8aef;
+    height: 200px;
+    width: 200px;
+    background-image: url("../icons/Internet_Explorer-6.png");
+    background-size: 50%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.8s;
+}
+
+.icon5:hover{
+    transform: scale(1.010);
+}
+
+.icon6 {
+    grid-row: 1;
+    grid-column: 4 /span 2;
+    background-color: rgb(91, 148, 255);
+    width: 410px;
+    height: 200px;
+    background-image: url("../icons/flowers.jpg");
+    background-size: 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.8s;
+}
+
+.icon6:hover{
+    transform: scale(1.010);
+}
+
+.icon7 {
+    grid-row: 1;
+    grid-column: 6;
+    background-color: #009DAE;
+    height: 200px;
+    width: 200px;
+    background-image: url("../icons/Photos_White-6.png");
+    background-size: 60%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.8s;
+}
+
+.icon7:hover{
+    transform: scale(1.010);
+}
+
+.icon8 {
+    grid-row: 2;
+    grid-column: 3;
+    background-color: #bf1b49;
+    height: 200px;
+    width: 200px;
+    background-image: url("../icons/Video_White-6.png");
+    background-size: 60%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.8s;
+}
+
+.icon8:hover{
+    transform: scale(1.010);
+}
+
+.icon9 {
+    grid-row: 2;
+    grid-column: 4;
+    background-color: #DA542D;
+    height: 200px;
+    width: 200px;
+    background-image: url("../icons/Music_White-6.png");
+    background-size: 60%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.8s;
+}
+
+.icon9:hover{
+    transform: scale(1.010);
+}
+
+.icon10 {
+    grid-row: 2;
+    grid-column: 5;
+    background-color: #5F3BB9;
+    height: 200px;
+    width: 200px;
+    background-image: url("../icons/gpt.png");
+    background-size: 60%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.8s;
+}
+
+.icon10:hover{
+    transform: scale(1.010);
+}
+
+.icon11 {
+    grid-row: 2;
+    grid-column: 6;
+    background-color: #CB4525;
+    height: 200px;
+    width: 200px;
+    background-image: url("../icons/reader.png");
+    background-size: 50%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.8s;
+}
+
+.icon11:hover{
+    transform: scale(1.010);
+}
+
+.icon12 {
+    grid-row: 3;
+    grid-column: 3 / span 2;
+    background-color: #5F3BB9;
+    height: 200px;
+    width: 410px;
+    background-image: url("../icons/Calendar-6.png");
+    background-size: 50%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.8s;
+}
+
+.icon12:hover{
+    transform: scale(1.010);
+}
+
+.icon13 {
+    grid-row: 3;
+    grid-column: 5;
+    background-color: #295697;
+    height: 200px;
+    width: 200px;
+    background-image: url("../icons/word.png");
+    background-size: 30%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.8s;
+}
+
+.icon13:hover{
+    transform: scale(1.010);
+}
+
+.icon14 {
+    grid-row: 3;
+    grid-column: 6;
+    background-color: #04723C;
+    height: 200px;
+    width: 200px;
+    background-image: url("../icons/excel.png");
+    background-size: 30%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 0.8s;
+}
+
+.icon14:hover{
+    transform: scale(1.010);
+}
+
+
+
+
+/* RESPONSIVE -------------------------------------------- */
+
+
+@media only screen and (max-width: 1400) { 
+    body {
+    background-image: url("../backgrounds/sfondo.webp");
+    background-size: 200%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+} 
+}
